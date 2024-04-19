@@ -1,0 +1,9 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.c_lib": "std",
+            "target.printf_lib": "std",
+            "rtos.main-thread-stack-size": 4096
+        }
+    }
+}
